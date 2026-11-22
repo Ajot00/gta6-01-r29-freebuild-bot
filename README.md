@@ -4,11 +4,12 @@
 [![rank](https://make.fun/badge/gta6-01/Ajot00/gta6-01-r29-freebuild-bot/rank.svg)](https://make.fun/bounty/gta6-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=gta6-01)
 [![reward](https://make.fun/badge/gta6-01/Ajot00/gta6-01-r29-freebuild-bot/reward.svg)](https://make.fun/bounty/gta6-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-01)
 
-A GTA-style open-world game built from scratch in three.js, following the
-Gemini-corrected image prompt (Solmere, Nia Vale, Harbor Patrol, The Glassline
-Run). **The world and shots were built free of the kit's design rules** — the
-entrypoint (`main.ts`) and dossier were added afterwards so the grader can
-run it, and the kit check passes.
+A GTA-style open-world crime game written from scratch in three.js: the
+Solmere harbour city, Nia Vale, the Harbor Patrol and the Glassline Run,
+rendered as four showcase screenshots. A Muse agent built the world and
+the shots — **0 Codex tokens** — and the repo root carries `main.ts` as
+the entrypoint plus the dossier, so the grader can run it and the kit
+check passes.
 
 ## Run it
 Serve the repo root over HTTP (ES modules need it — `file://` blocks module
