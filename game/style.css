@@ -1,0 +1,38 @@
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:100%;height:100%;overflow:hidden;background:#1c1426}
+#world{position:fixed;inset:0;width:100%;height:100%;display:block}
+#hud{position:fixed;inset:0;pointer-events:none;font-family:"Arial Narrow",Arial,sans-serif;color:#fff;
+  text-shadow:0 1px 3px rgba(0,0,0,.65)}
+.mission{position:absolute;top:18px;left:20px;background:rgba(10,8,18,.55);
+  border-left:4px solid #ff8c42;padding:8px 14px 9px;border-radius:2px}
+.mission-title{font-size:19px;font-weight:800;letter-spacing:2.5px}
+.mission-obj{font-size:13px;letter-spacing:1px;color:#ffd9a8;margin-top:2px}
+.place{position:absolute;top:20px;left:50%;transform:translateX(-50%);
+  font-size:17px;font-weight:800;letter-spacing:4px;
+  background:rgba(10,8,18,.45);padding:7px 18px;border-radius:2px}
+.stats{position:absolute;top:18px;right:20px;text-align:right;font-size:17px;
+  font-weight:700;letter-spacing:1px;background:rgba(10,8,18,.45);
+  padding:8px 14px;border-radius:2px}
+.stats .money{color:#9fe08a;margin-left:12px}
+.stars{color:#ffd23e;letter-spacing:3px;margin-left:12px;font-size:18px}
+.map-wrap{position:absolute;left:20px;bottom:20px;width:150px;height:150px;
+  border-radius:50%;overflow:hidden;border:3px solid rgba(255,255,255,.85);
+  box-shadow:0 0 0 3px rgba(0,0,0,.35),0 4px 18px rgba(0,0,0,.5)}
+#minimap{display:block;width:150px;height:150px}
+.speed{position:absolute;right:22px;bottom:20px;text-align:right;
+  background:rgba(10,8,18,.5);padding:6px 14px 8px;border-radius:3px}
+.speed #speed-val{font-size:34px;font-weight:800;letter-spacing:1px}
+.speed .unit{font-size:14px;font-weight:700;color:#ffd9a8;margin-left:6px}
+.busted{position:absolute;left:50%;top:20%;transform:translateX(-50%);
+  font-size:30px;font-weight:900;letter-spacing:10px;color:#ff3b30;
+  background:rgba(20,4,6,.55);padding:6px 24px 8px 34px;border:1px solid rgba(255,59,48,.7);
+  border-radius:4px;display:none;text-shadow:0 0 14px rgba(255,60,40,.8)}
+.patrol{position:absolute;left:50%;top:47%;transform:translateX(-50%);
+  font-size:15px;font-weight:700;letter-spacing:3px;color:#ffe9c9;
+  background:rgba(10,8,18,.5);padding:5px 14px;border-radius:2px;display:none}
+.prompt{position:absolute;left:50%;bottom:9%;transform:translateX(-50%);
+  font-size:20px;font-weight:800;letter-spacing:2px;
+  background:rgba(10,8,18,.55);padding:9px 22px;border-radius:3px;display:none}
+.prompt b{color:#ffd23e}
+.hint{position:absolute;left:50%;bottom:2.5%;transform:translateX(-50%);
+  font-size:12px;letter-spacing:2px;color:rgba(255,255,255,.75)}
