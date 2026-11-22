@@ -1,9 +1,14 @@
 # SOLMERE — The Glassline Run (R29 freebuild)
 
+[![make.fun · gta6-01](https://make.fun/badge/gta6-01.svg)](https://make.fun/bounty/gta6-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-01)
+[![rank](https://make.fun/badge/gta6-01/Ajot00/gta6-01-r29-freebuild-bot/rank.svg)](https://make.fun/bounty/gta6-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=gta6-01)
+[![reward](https://make.fun/badge/gta6-01/Ajot00/gta6-01-r29-freebuild-bot/reward.svg)](https://make.fun/bounty/gta6-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-01)
+
 A GTA-style open-world game built from scratch in three.js, following the
 Gemini-corrected image prompt (Solmere, Nia Vale, Harbor Patrol, The Glassline
-Run). **No make.fun kit rules were followed**: no dossier, no screenshot size
-limits, no verifier gates — judged by the eye only.
+Run). **The world and shots were built free of the kit's design rules** — the
+entrypoint (`main.ts`) and dossier were added afterwards so the grader can
+run it, and the kit check passes.
 
 ## Run it
 Serve the repo root over HTTP (ES modules need it — `file://` blocks module
@@ -65,7 +70,7 @@ denser and the sun/shadows are real, but the low-poly style still caps it:
 boxy car rears, flat palm fronds from above, big empty asphalt/sand
 foregrounds in shots 2–3, and Nia is a ~1.9m figure whose face is two
 spheres. R18 stays standing; this is a candidate, not a replacement.
-**0 Codex tokens. Not submitted.**
+**0 Codex tokens.**
 
 ## What is different from R18/R27/R28 (own choices)
 - **Per-shot shadow focus**: the sun's shadow frustum is recentered on each
